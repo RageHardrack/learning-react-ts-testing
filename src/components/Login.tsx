@@ -78,7 +78,7 @@ export class Login extends React.Component<LoginProps, LoginState> {
             type="password"
           />
           <br />
-          <input type="submit" />
+          <input type="submit" value="Login" />
         </form>
         {loginMessage}
       </div>
